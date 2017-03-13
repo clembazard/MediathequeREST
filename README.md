@@ -2,9 +2,9 @@
 Mediatheque RESTful en JEE
 
 
-# Scripts de création des tables
+## Scripts de création des tables
 
-# Book
+### Book
 CREATE TABLE IF NOT EXISTS Book (
     Id INT NOT NULL Auto_Increment, 
     Name TEXT NOT NULL, 
@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS Book (
 )
 
 
-# Member
+### Member
 CREATE TABLE IF NOT EXISTS Member (
     Id INT NOT NULL Auto_Increment, 
     IdBook INT NOT NULL, 
