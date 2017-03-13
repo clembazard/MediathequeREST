@@ -1,6 +1,9 @@
 # MediathequeREST
 Mediatheque RESTful en JEE
 
+Netbeans 8.2
+Glassfish 4.1 (NOT 4.1.1 !)
+Java 1.8.0_91
 
 ## Scripts de création des tables
 
