@@ -54,3 +54,19 @@ Serveur MySQL 5.5.54 et serveur de l'ULCO
     VALUES
     (5, "Clément Rémond"),
     (1, "Eric Sailly");
+
+
+## Utilisation
+Il est préférable de lancer le projet directement depuis netbeans, autrement, une fois le projet sur un serveur ad-hoc, ouvrir le fichier "test-resbeans.html".
+
+L'interface ressemble fortement à ce que l'on retrouve lorsqu'on fait un WS en .NET, il fonctionne également de la même manière que Postman ou SoapUI.
+Ce que je veux dire par là, c'est que pour faire un Put ou un Post etc, il est necessaire de donner le squelette XML ou Json complet ce que vous voulez créer ou modifier.
+Comme vous nous l'avez montrer sur Postman.
+
+## En cas de besoin
+En cas de besoin n'hésitez pas à nous contacter par mail : 
+Clément Rémond : clementremond@outlook.fr
+Eric Sailly : esailly@free.fr
+
+### Enfin
+Merci pour vos enseignements et votre patience.
