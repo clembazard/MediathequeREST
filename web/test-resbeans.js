@@ -715,6 +715,7 @@ TestSupport.prototype = {
         
         var disp = this.getDisplayUri(req);
         this.currentMethod = method;
+        console.log(method);
         this.currentMimeType = mimetype;
         
         //add timestamp to make url unique in case of IE7
@@ -1770,13 +1771,13 @@ WADLParser.prototype = {
             var i = mime.indexOf('(');
             if(i == -1) {
                 if(mime == 'GET' || mime == 'POST' || mime == 'PUT' || mime == 'DELETE')
-                    return getDefaultMime();
+                    return this.getDefaultMime();
                 else
                     return mime;
             } else
                 return mime.substring(i+1, mime.length-1);
         } else
-            return getDefaultMime();
+            return this.getDefaultMime();
     },
     
     getMethod : function (method) {
@@ -2080,6 +2081,7 @@ XHR.prototype = {
     },
 
     delete_ : function(url) {
+        console.log(url);
         return this.httpRequest('DELETE', url, 'application/xml', '', true);
     },
     
