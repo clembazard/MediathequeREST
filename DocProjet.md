@@ -17,7 +17,7 @@ Serveur MySQL 5.5.54 et serveur de l'ULCO
 
 	<property name="serverName" value="ADRESSE de votre serveur mysql"/>
 	<property name="portNumber" value="PORT de votre serveur mysql"/>
-	<property name="databaseName" value="Schemas de votre base"/>
+	<property name="databaseName" value="Nom de votre base"/>
 	<property name="User" value="USER mysql"/>
 	<property name="Password" value="password mysql"/>
 	<property name="URL" value="jdbc:mysql://ADRESSE:PORT/Schemas?zeroDateTimeBehavior=convertToNull"/>
